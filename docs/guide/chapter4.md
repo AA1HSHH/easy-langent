@@ -550,7 +550,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 llm = ChatOpenAI(
-    api_key=os.getenv(“API_KEY”),
+    api_key=os.getenv("API_KEY"),
     base_url=”https://api.deepseek.com”,
     model=”deepseek-chat”,
     temperature=0.3
